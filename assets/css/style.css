@@ -142,3 +142,47 @@ ul, ul li, a{
     line-break: auto;
     line-height: 30px;
 }
+.brown{
+    background-color: var(--light_gray);
+    margin: 40px 0px 20px 0px;
+}
+.brown h3{
+   text-align: center;
+   font-size: 30px;
+   color: var(--color-heading);
+   font-family: var(--heading-font-family);
+   padding: 15px;
+}
+.divwithphone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone--left{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin-left: -210px;
+}
+.phone--left img{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+}
+.phone--heading{
+    text-align: center;
+    font-size: 21px;
+    color: var(--color-heading);
+    font-family: var(--heading-font-family);
+}
+footer hr{
+    border: 1px solid var(--light_gray);
+    margin: 40px 0px 20px 0px;
+}
+.footer-section p{
+   text-align: center;
+   font-size: 17px;
+    color: var(--color-heading);
+    font-family: var(--heading-font-family);
+    margin: 0px 0px 20px 0px;
+}
