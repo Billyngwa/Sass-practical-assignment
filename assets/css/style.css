@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+ul{
+    list-style: none;
+}
+
+.container, .header_section{
     width: 80%;
     margin-left: 10%;
 }
@@ -16,4 +20,67 @@
     --text-font-family : 'Montserrat', sans-serif;
     --heading-font-family : 'Mukta', sans-serif;
     --logo-font-family : 'Comfortaa', cursive;
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+}
+.website{
+    font-size:50px ;
+    font-family: var(--logo-font-family);
+}
+.list_header{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin:0px 0px 0px 10px;
+}
+/* style for section one */
+.section_one{
+    background-color: var(--light_gray);
+}
+.container_section_one{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.section_three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+}
+.section_three .pencil_on_hand{
+    background-color: var(--box-one-background);
+    /* position: absolute; */
+    width:33.333%;
+    height: 200px;
+}
+.section_three .pencil_on_hand img{
+    width:200px;
+    height: 200px;
+    margin: 50px;
+}
+.section_three .tablet{
+    background-color: var(--box-two-background);
+    /* position: absolute; */
+    width:33.333%;
+    height: 200px;
+}
+.section_three .tablet img{
+    width:200px;
+    height: 200px;
+    margin: 50px;
+}
+.section_three .settings{
+    background-color: var(--box-three-background);
+    /* position: absolute; */
+    width:33.333%;
+    height: 40vh;
+}
+.section_three .settings img{
+    width:200px;
+    height: 200px;
+    margin: 50px;
+    background-color: transparent;
 }
