@@ -1,0 +1,32 @@
+header{
+    div{
+        @include displayElementsflex (center);
+        @include container;
+        h2{
+            font-size:50px ;
+            font-family: $logo-font-family;
+            color:$color-heading;
+        }
+        nav{
+            ul{
+                @include displayElementgrid(0px,0px,0px,10px);
+                @include styleType;
+                li{
+                    margin-right: 40px;
+                    a{
+                        @include styleType;
+                        color:$color-heading;
+                        font-size: 20px;
+                        font-family: $heading-font-family;
+                        &:visited{
+                            color:$color-heading;
+                        }
+                        &:hover{
+                            color:$box-two-background;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

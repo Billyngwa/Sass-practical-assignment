@@ -1,0 +1,15 @@
+footer{
+    hr{
+        border: 1px solid $light_gray;
+        margin: 40px 0px 20px 0px;
+    }
+    div{
+        p{
+            text-align: center;
+            font-size: 17px;
+             color:$color-heading;
+             font-family: $heading-font-family;
+             margin: 0px 0px 20px 0px;
+        }
+    }
+}

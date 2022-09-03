@@ -1,0 +1,37 @@
+@import './variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin container {
+    width: 80%;
+    margin-left: 10%;
+}
+@mixin lineBreak {
+    line-break: auto;
+    line-height: 30px;
+}
+@mixin displayElementsflex ($align) {
+    display: flex;
+    justify-content: space-between;
+    align-items: $align;
+}
+@mixin displayElementgrid ($top,$right,$bottom,$left){
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin:$top,$right,$bottom,$left;
+}
+
+@mixin styleType {
+    list-style: none;
+    text-decoration: none;
+}
+
+@import './header';
+@import './section1';
+@import './footer';
+
+
+
